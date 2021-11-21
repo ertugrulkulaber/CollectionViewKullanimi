@@ -16,6 +16,9 @@
 		872657792736F2DA00CC42DD /* BootcampCollectionViewKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657782736F2DA00CC42DD /* BootcampCollectionViewKullanimiTests.swift */; };
 		872657832736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657822736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITests.swift */; };
 		872657852736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657842736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITestsLaunchTests.swift */; };
+		872657922736F54200CC42DD /* UlkeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657912736F54200CC42DD /* UlkeCollectionViewCell.swift */; };
+		872657942736F5DA00CC42DD /* Ulkeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872657932736F5DA00CC42DD /* Ulkeler.swift */; };
+		87894937273989EF0033D36C /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87894936273989EF0033D36C /* DetayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8726577E2736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampCollectionViewKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		872657822736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampCollectionViewKullanimiUITests.swift; sourceTree = "<group>"; };
 		872657842736F2DA00CC42DD /* BootcampCollectionViewKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampCollectionViewKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		872657912736F54200CC42DD /* UlkeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeCollectionViewCell.swift; sourceTree = "<group>"; };
+		872657932736F5DA00CC42DD /* Ulkeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulkeler.swift; sourceTree = "<group>"; };
+		87894936273989EF0033D36C /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				872657632736F2D900CC42DD /* SceneDelegate.swift */,
 				872657652736F2D900CC42DD /* ViewController.swift */,
 				872657672736F2D900CC42DD /* Main.storyboard */,
+				87894936273989EF0033D36C /* DetayVC.swift */,
+				872657932736F5DA00CC42DD /* Ulkeler.swift */,
+				872657912736F54200CC42DD /* UlkeCollectionViewCell.swift */,
 				8726576A2736F2DA00CC42DD /* Assets.xcassets */,
 				8726576C2736F2DA00CC42DD /* LaunchScreen.storyboard */,
 				8726576F2736F2DA00CC42DD /* Info.plist */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87894937273989EF0033D36C /* DetayVC.swift in Sources */,
 				872657662736F2D900CC42DD /* ViewController.swift in Sources */,
 				872657622736F2D900CC42DD /* AppDelegate.swift in Sources */,
+				872657942736F5DA00CC42DD /* Ulkeler.swift in Sources */,
 				872657642736F2D900CC42DD /* SceneDelegate.swift in Sources */,
+				872657922736F54200CC42DD /* UlkeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
